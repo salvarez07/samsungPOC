@@ -1,0 +1,176 @@
+ /* //Custom Styling */
+ body {
+    background-color: #fafafa;
+  }
+  /* FAQ and Support */
+  .support-icon__container {
+    width: 70px;
+  }
+  .support-icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 100px;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+  }
+  .faq-icon {
+    background: #000;
+    color: #fff;
+  }
+  .usp-list {
+    list-style: none;
+    padding: 0;
+  }
+  .CoveoResultList.myCustomClass .result-content {
+    width: calc(100% - 70px);
+  }
+  .CoveoResultList.myCustomClass .results-colors {
+    display: flex;
+    align-items: center;
+  }
+  .header-custom {
+    width: 100%;
+    background: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  .header-custom img {
+    display: inline-block;
+    width: 160px;
+  }
+  .swatches {
+    display: flex;
+  }
+  .swatche {
+    display: inline-block;
+    box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.8);
+  }
+  .Samsung .swatche {
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .coveo-search-section.myCustomClass {
+    background: #f2f2f2;
+    width: 100%;
+    max-width: 100%;
+    padding: 50px;
+    margin: 0;
+  }
+  .coveo-search-section.myCustomClass .CoveoSearchbox {
+    border: solid 1px #000;
+    border-radius: 3px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .coveo-search-section.myCustomClass .CoveoSearchbox .magic-box,
+  .CoveoSearchbox .CoveoSearchButton {
+    border: 0;
+    background: #fff;
+  }
+  .Samsung .coveo-card-layout.CoveoResult {
+    border: none;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+  }
+  .Samsung.CoveoSearchInterface .wrapper-custom {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .Samsung.CoveoSearchInterface .coveo-tab-section {
+    border: 0;
+    display: flex;
+  }
+  .CoveoTab.myCustomCLass {
+    border: solid 1px #d6d6d6;
+    flex: 1;
+    color: #000;
+    font-size: 12px;
+  }
+  .CoveoTab.myCustomCLass p {
+    color: #000;
+  }
+  .CoveoTab.myCustomCLass.coveo-selected {
+    background: #000;
+    border-color: #000;
+  }
+  .CoveoTab.myCustomCLass.coveo-selected p {
+    color: #fff;
+  }
+  .Samsung.CoveoSearchInterface .coveo-main-section {
+    max-width: 100%;
+    background: #f7f7f7;
+    max-width: 100%;
+    width: 100%;
+    font-family: 'Roboto';
+  }
+  .CoveoFacet.myCustomClass {
+    padding: 25px;
+    margin-bottom: 2px;
+    background: #fff;
+    border: none;
+  }
+  .CoveoFacet.myCustomClass .coveo-facet-header {
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: white;
+  }
+  .CoveoFacet.myCustomClass .coveo-dynamic-facet-header-title,
+  .CoveoFacet.myCustomClass .coveo-dynamic-facet-collapse-toggle-svg {
+    color: #000;
+  }
+  .CoveoDynamicFacet.myCustomClass {
+    padding: 25px;
+    margin-bottom: 2px;
+    background: #fff;
+  }
+  .CoveoDynamicFacet.myCustomClass .coveo-facet-header {
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .CoveoDynamicFacet.myCustomClass .coveo-dynamic-facet-header-title,
+  .CoveoDynamicFacet.myCustomClass .coveo-dynamic-facet-collapse-toggle-svg {
+    color: #000;
+  }
+  .CoveoSearchInterface .coveo-facet-column {
+    margin-right: 0;
+  }
+  .CoveoResultList.myCustomClass .coveo-list-layout.CoveoResult {
+    padding: 15px;
+    background: #fff;
+    margin-bottom: 15px;
+    border: 0;
+    outline: none;
+  }
+  .CoveoResultList.myCustomClass .coveo-result-row {
+    margin: 0;
+  }
+  .CoveoResultList.myCustomClass .coveo-result-cell.img-cell {
+    width: 140px;
+  }
+  .CoveoResultList.myCustomClass .coveo-result-cell.img-cell .product-img {
+    width: 120px;
+  }
+  .CoveoResultList.myCustomClass .CoveoResult a.CoveoResultLink,
+  .CoveoResult a.CoveoResultLink:visited,
+  .CoveoResult a.CoveoResultLink:visited:hover,
+  .CoveoResultLink:visited,
+  .CoveoResultLink:visited:hover,
+  a.CoveoResultLink:visited,
+  a.CoveoResultLink:visited:hover {
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .CoveoResultList.myCustomClass .CoveoResult a.CoveoResultLink .coveo-highlight {
+    font-weight: bold;
+  }
