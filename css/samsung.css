@@ -78,14 +78,6 @@ figcaption {
 	padding: 0
 }
 
-img,
-form,
-fieldset,
-svg {
-	border: 0;
-	vertical-align: top
-}
-
 input,
 button,
 select {

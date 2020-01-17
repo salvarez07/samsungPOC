@@ -1,3 +1,20 @@
+svg:not(:root) {
+  overflow: hidden;
+}
+.coveo-facet-value .coveo-facet-value-checkbox {
+  width: 18px;
+  height: 18px;
+  box-sizing: content-box;
+  border: thin solid #bcc3ca;
+  border-radius: 2px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 15px;
+  background: #fff;
+  position: relative;
+  float: left;
+  top: 2px;
+}
  /* //Custom Styling */
  body {
     background-color: #fafafa;
