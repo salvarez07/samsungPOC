@@ -7663,7 +7663,7 @@ html[lang^="th"] .gb-footer-2019 .gb-footer__item a {
 	margin: auto auto;
 	width: 133px;
 	height: 21px;
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5lM5aQcfGKfETXqzHJeEtdB_Ny7_Dwd2K_u63zRbXOqkdPJNsFw&s");
+	background-image: url('../images/svg-logo.svg');
 	background-size: 100% auto
 }
 
@@ -13269,7 +13269,7 @@ html[lang^="th"] .cm-cookie-geo--type-manage .cm-cookie-geo__list-cta span {
 .gb-gnb__logo.s-svg-ico:after {
 	width: 133px;
 	height: 21px;
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5lM5aQcfGKfETXqzHJeEtdB_Ny7_Dwd2K_u63zRbXOqkdPJNsFw&s");
+	background: url('../images/svg-logo.svg');
 	background-size: 100% auto
 }
 
