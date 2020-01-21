@@ -79,7 +79,7 @@
                                     </div>
                                     <div class="coveo-result-cell" >
                                         <a class="CoveoResultLink" data-title-template='${raw.question}'></a>
-                                        <p class="CoveoFieldValue" data-field="@answer" data-helper="highlightStreamText" data-html-value="true"></p>
+                                        <p class="CoveoFieldValue" data-field="@answer"></p>
                                         <div class='support__footer'>
                                             <span>
                                                 Category:
@@ -98,7 +98,7 @@
                                     </div>
                                     <div class="coveo-result-cell" >
                                         <a class="CoveoResultLink" data-title-template='${raw.title}'></a>
-                                        <p class="CoveoFieldValue" data-field="@excerpt" data-helper="highlightStreamText" data-html-value="true"></p>
+                                        <p class="CoveoFieldValue" data-field="@excerpt"></p>
                                         <div class='support__footer'>
                                             <span>
                                                 Category:
@@ -111,18 +111,18 @@
                         </script>
                         <script id="YouTubeVideo" class="result-template" type="text/html" data-layout="list" data-field-filetype="YouTubeVideo">
                             <div class="coveo-result-frame">
-                                <div class="coveo-result-row">
-                                    <div class="coveo-result-cell" style="width:220px; padding-top:7px">
+                                <div class="coveo-result-row row-align-center">
+                                    <div class="coveo-result-cell thumbnail-cell">
                                         <span class="CoveoYouTubeThumbnail">
                                         </span>
                                     </div>
                                     <div class="coveo-result-cell" >
                                         <div class="coveo-result-row">
-                                            <div class="coveo-result-cell" style="font-size:16px">
+                                            <div class="coveo-result-cell">
                                                 <a class="CoveoResultLink">
                                                 </a>
                                             </div>
-                                            <div class="coveo-result-cell" style="text-align:right; width:120px;font-size:12px">
+                                            <div class="coveo-result-cell">
                                                 <span class="CoveoFieldValue" data-field="@date" data-helper="dateTime"></span>
                                             </div>
                                         </div>
@@ -154,7 +154,7 @@
                                 var usp = raw.marketing_specs;
                             }}
                             <div class="coveo-result-frame myCustomClass">
-                                <div class="coveo-result-row">
+                                <div class="coveo-result-row row-align-center">
                                     <div class="coveo-result-cell img-cell">
                                         <img class="product-img" src="https://images.samsung.com/is/image/samsung/<%- raw.images_url[0] %>"/>
                                     </div>

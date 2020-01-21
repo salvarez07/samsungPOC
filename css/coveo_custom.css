@@ -1,7 +1,6 @@
 .CoveoSearchInterface {
   background: #f7f7f7; 
 }
-
 svg:not(:root) {
   overflow: hidden;
 }
@@ -26,6 +25,7 @@ body {
 /* FAQ and Support */
 .support-icon__container {
   width: 70px;
+  flex: 0;
 }
 .support-icon {
   width: 50px;
@@ -184,12 +184,15 @@ body {
   border: 0;
   outline: none;
 }
-.CoveoResultList.myCustomClass .coveo-result-row {
-  margin: 0;
+.coveo-result-frame .coveo-result-row, .CoveoResult.coveo-result-frame .coveo-result-row {
+  margin: 0; 
   display: flex;
-  align-items: center;
   flex-direction: column;
   text-align: center;
+  align-items: center;
+}
+.row-align-center {
+  align-items: center;
 }
 .CoveoResultList.myCustomClass .coveo-result-cell.img-cell {
   width: 140px;
@@ -259,17 +262,38 @@ a.CoveoResultLink:visited:hover {
 
 .CoveoSearchInterface.coveo-small-facets .coveo-dropdown-header .coveo-more-tabs p{
   line-height: 1.4;
+}
 
+.coveo-result-frame .coveo-result-row .thumbnail-cell {
+    width: 220px;
+}
+
+.coveo-result-frame .coveo-result-cell, .CoveoResult.coveo-result-frame .coveo-result-cell {
+  margin-bottom: 10px;
 }
 
 @media (min-width: 499px) {
-  .CoveoResultList.myCustomClass .coveo-result-row {
+  .coveo-result-frame .coveo-result-row, .CoveoResult.coveo-result-frame .coveo-result-row {
     flex-direction: row;
     text-align: left;
+    align-items: flex-start;
+  }
+
+  .coveo-result-frame .coveo-result-cell, .CoveoResult.coveo-result-frame .coveo-result-cell {
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+
+  .coveo-result-frame .coveo-result-row .thumbnail-cell {
+    margin-right: 20px;
   }
 
   .CoveoResultList.myCustomClass .coveo-result-cell.img-cell {
     margin: 0;
+  }
+
+  .coveo-result-frame .coveo-result-row.row-align-center,  .CoveoResult.coveo-result-frame .row-align-center{
+    align-items: center;
   }
 
   .CoveoResultList.myCustomClass .results-colors {
